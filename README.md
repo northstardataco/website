@@ -1,7 +1,7 @@
 # North Star Website
 
 [![CI Status](https://img.shields.io/github/actions/workflow/status/north-star-data/website/ci.yml?label=biome)](https://github.com/north-star-data/website/actions/workflows/ci.yml)
-[![CD Status](https://img.shields.io/github/actions/workflow/status/north-star-data/website/deploy.yml?label=pages)](https://github.com/north-star-data/website/actions/workflows/deploy.yml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/north-star-data/website/deploy.yml)](https://github.com/north-star-data/website/actions/workflows/deploy.yml)
 [![GitHub License](https://img.shields.io/github/license/north-star-data/website)](LICENSE)
 [![Built by North Star Data](https://img.shields.io/badge/built_by-North_Star_Data-4F46E5)](https://northstardata.co/)
 
