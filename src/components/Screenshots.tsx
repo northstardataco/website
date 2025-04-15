@@ -1,11 +1,11 @@
-import metabase from "../assets/screenshots/metabase.png";
-import rudderstack from "../assets/screenshots/rudderstack.png";
-import plausible from "../assets/screenshots/plausible.png";
-import marimo from "../assets/screenshots/marimo.png";
-import mixpanel from "../assets/screenshots/mixpanel.png";
-import sqlmesh from "../assets/screenshots/sqlmesh.png";
-import elementary from "../assets/screenshots/elementary.png";
 import { motion } from "motion/react";
+import elementary from "../assets/screenshots/elementary.png";
+import marimo from "../assets/screenshots/marimo.png";
+import metabase from "../assets/screenshots/metabase.png";
+import mixpanel from "../assets/screenshots/mixpanel.png";
+import plausible from "../assets/screenshots/plausible.png";
+import rudderstack from "../assets/screenshots/rudderstack.png";
+import sqlmesh from "../assets/screenshots/sqlmesh.png";
 
 const images = [
   {
