@@ -1,10 +1,9 @@
-# North Star Website
+# North Star Data Website
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/north-star-data/website/deploy.yml)](https://github.com/north-star-data/website/actions/workflows/deploy.yml)
-[![GitHub License](https://img.shields.io/github/license/north-star-data/website)](LICENSE)
-[![Built by North Star Data](https://img.shields.io/badge/built_by-North_Star_Data-4F46E5)](https://northstardata.co/)
+[![GitHub License](https://img.shields.io/github/license/north-star-data/website?color=blue)](LICENSE)
 
-Built with [Astro](https://astro.build/), [React](https://react.dev/) and [Tailwind](https://tailwindcss.com/).
+Built with [Astro](https://astro.build/), [React](https://react.dev/), [Tailwind](https://tailwindcss.com/), [Lucide](https://lucide.dev/) and [Motion](https://motion.dev/).
 
 ## Commands
 

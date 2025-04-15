@@ -1,9 +1,9 @@
-import logo from "../assets/logo.svg";
-
 export default function Header() {
   return (
-    <div className="flex justify-center items-center h-screen p-8">
-      <img src={logo.src} alt="North Star" className="h-16" />
-    </div>
+    <p className="text-4xl">
+      Data engineering and analytics
+      <br />
+      <span className="text-slate-500">for a simple monthly fee</span>
+    </p>
   );
 }

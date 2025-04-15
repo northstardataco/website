@@ -1,18 +1,28 @@
 ---
 import "../styles/global.css";
+
+const title =
+  "North Star Data - Data engineering and analytics as a subscription";
+const description =
+  "North Star Data is a data engineering and analytics service that helps you make better decisions with your data. We provide data engineering, data analytics, and data visualization services as a subscription.";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content="North Star is the data and analytics engineering subscription for startups." />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>North Star - Data and analytics engineering subscription</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content="https://northstardata.co/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og_image.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>

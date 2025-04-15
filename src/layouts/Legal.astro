@@ -1,0 +1,18 @@
+---
+import Footer from "../components/Footer.tsx";
+import Logo from "../components/Logo.tsx";
+import Layout from "../layouts/Layout.astro";
+
+const { title } = Astro.props;
+---
+
+<Layout>
+  <div class="flex flex-col gap-16 px-4 xl:px-96 lg:px-40 md:px-12 py-16">
+    <Logo />
+    <h1 class="text-4xl">{title}</h1>
+    <div class="flex flex-col gap-8">
+      <slot />
+    </div>
+    <Footer />
+  </div>
+</Layout>
