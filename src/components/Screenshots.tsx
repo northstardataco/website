@@ -1,40 +1,47 @@
+import metabase from "../assets/screenshots/metabase.png";
+import rudderstack from "../assets/screenshots/rudderstack.png";
+import plausible from "../assets/screenshots/plausible.png";
+import marimo from "../assets/screenshots/marimo.png";
+import mixpanel from "../assets/screenshots/mixpanel.png";
+import sqlmesh from "../assets/screenshots/sqlmesh.png";
+import elementary from "../assets/screenshots/elementary.png";
 import { motion } from "motion/react";
 
 const images = [
   {
     tool: "Metabase",
     description: "Business intelligence",
-    source: "/src/assets/screenshots/metabase.png",
+    source: metabase.src,
   },
   {
     tool: "RudderStack",
     description: "Data pipelines",
-    source: "/src/assets/screenshots/rudderstack.png",
+    source: rudderstack.src,
   },
   {
     tool: "Plausible",
     description: "Web analytics",
-    source: "/src/assets/screenshots/plausible.png",
+    source: plausible.src,
   },
   {
     tool: "Python",
     description: "Data analysis",
-    source: "/src/assets/screenshots/marimo.png",
+    source: marimo.src,
   },
   {
     tool: "Mixpanel",
     description: "Product analytics",
-    source: "/src/assets/screenshots/mixpanel.png",
+    source: mixpanel.src,
   },
   {
     tool: "SQLMesh",
     description: "Data transformation",
-    source: "/src/assets/screenshots/sqlmesh.png",
+    source: sqlmesh.src,
   },
   {
     tool: "Elementary",
     description: "Data observability",
-    source: "/src/assets/screenshots/elementary.png",
+    source: elementary.src,
   },
 ];
 const duplicatedImages = [...images, ...images];
