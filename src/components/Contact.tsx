@@ -16,7 +16,7 @@ const buttons = [
 export default function Contact() {
   return (
     <div className="flex justify-between items-center bg-indigo-600 text-white rounded-lg p-4">
-      <p>Become data-driven today!</p>
+      <p>Unlock your data's potential</p>
       <div className="flex gap-2">
         {buttons.map((button) => (
           <a
