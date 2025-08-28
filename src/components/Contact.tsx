@@ -4,12 +4,10 @@ const buttons = [
   {
     text: "Book a call",
     icon: Video,
-    href: "https://cal.com/northstardata/intro",
   },
   {
     text: "Send an email",
     icon: Mail,
-    href: "mailto:emil@northstardata.co",
   },
 ];
 
@@ -19,20 +17,14 @@ export default function Contact() {
       <p>Unlock your data's potential</p>
       <div className="flex gap-2">
         {buttons.map((button) => (
-          <a
+          <button
             key={button.text}
-            href={button.href}
-            target="_blank"
-            rel="noopener noreferrer"
+            type="button"
+            className="flex gap-2 bg-indigo-700 hover:bg-indigo-800 rounded-lg px-4 py-2"
           >
-            <button
-              type="button"
-              className="flex gap-2 cursor-pointer bg-indigo-700 hover:bg-indigo-800 rounded-lg px-4 py-2"
-            >
-              <button.icon strokeWidth={1.5} />
-              {button.text}
-            </button>
-          </a>
+            <button.icon strokeWidth={1.5} />
+            {button.text}
+          </button>
         ))}
       </div>
     </div>
